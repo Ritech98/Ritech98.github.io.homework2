@@ -9,6 +9,7 @@
   --ad-color: #ffffff;
   --team-color: #212121;
   --highlight: #2196f3;
+  --team-bg: #f5f4fa;
 }
 
 body {
@@ -77,6 +78,7 @@ a href {
 .button:hover {
   color: var(--main-bg-color);
   background-color: #2196f3;
+  cursor: pointer;
 }
 h2 {
   font-family: "Roboto";
@@ -86,6 +88,7 @@ h2 {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-color);
+  background-color: var(--team-bg);
 }
 p {
   font-family: "Roboto";
@@ -145,6 +148,11 @@ p {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  color: var(--ad-color);
+  background-color: var(--highlight);
+}
+.main-button:hover {
+  cursor: pointer;
 }
 .content {
   font-family: "Roboto";
